@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rock Paper Scissor multiplayer game</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 	 
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    	<div class="navbar-header">
+      	<a class="navbar-brand" href="#"><strong>Rock Paper Scissor Game</a>
+    	</div>
+  		</div>
+	</nav>
+
+
+
+	<div class="row">
+		
+		<form class="form-inline">
+		<div class="col-xs-12 col-sm-12 col-md-4"></div>
+  		<div class="form-group col-xs-12 col-sm-12 col-md-4">
+    	<!-- <label for="exampleInputName2">Name</label> -->
+    	<input type="text" class="form-control" id="exampleInputName2" style="width: 300px" placeholder="Name">
+  		<button type="submit" class="btn btn-default" style="width: 70px"  >Submit</button>
+  		</div>
+  		<div class="col-xs-12 col-sm-12 col-md-4"></div>
+		</form>
+
+	</div>
+
+	
+	
+	<div class="row player-div" id="player-container">
+	
+	<div class="col-md-3"></div>
+	<div class="col-md-3" id="player-1">
+	<h4>Player 1</h4>
+	
+
+	<i class="fa fa-hand-rock-o fa-4x fa-fw"></i>
+	<span class="sr-only">Loading...</span>
+
+	<i class="fa fa-hand-paper-o fa-4x fa-fw" aria-hidden="true"></i>
+
+	<i class="fa fa-hand-scissors-o fa-4x fa-fw" aria-hidden="true"></i>
+
+	</div>
+	
+  	<div class="col-md-3" id="player-2">
+  	<h4>Player 2</h4>
+  	<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i></div>
+  	
+  	<div class="col-md-3"></div>
+	
+	</div>
+
+
+
+
+</body>
+
+</html>
